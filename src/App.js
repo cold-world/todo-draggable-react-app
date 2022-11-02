@@ -4,6 +4,7 @@ import { v4 } from 'uuid';
 import { randomColor } from 'randomcolor';
 import Draggable from 'react-draggable';
 import Form from './components/Form';
+import { useDoubleTap } from 'use-double-tap';
 
 
 
@@ -92,7 +93,7 @@ function App() {
                       placeholder={todo.text} onChange={(e) => setRenameTodo(e.target.value)} />
                     <button type='submit' className='renameTodo-btn'>✓</button>
                   </form>}
-                <button onClick={() => deleteTodo(todo.id)} className='todo-btn-delete'>X</button>
+                <button onClick={() => deleteTodo(todo.id)} onTouchStart={() => deleteTodo(todo.id)} className='todo-btn-delete'>X</button>
               </div>
             </Draggable>
           )
