@@ -1,0 +1,90 @@
+body {
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: #222222;
+}
+
+.addTodo-input {
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  background-color: #222222;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.editTodo-input {
+  border: none;
+  font-size: 20px;
+  max-width: 190px;
+  padding: 0;
+  height: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.addTodo-btn {
+  border-radius: 20px;
+  width: 40px;
+  font-size: 30px;
+  transition: all ease-in-out;
+  cursor: pointer;
+}
+
+.addTodo-btn:hover {
+  background-color: rgb(217, 217, 217);
+}
+
+.todo-item {
+  display: flex;
+  position: absolute;
+  cursor: move;
+  min-width: 220px;
+  max-width: 220px;
+  word-wrap: break-all;
+  overflow-wrap: break-all;
+  word-break: break-all;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.todo-btn-delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 22px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  transition: all ease-in-out;
+  cursor: pointer;
+}
+
+.renameTodo-btn {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 22px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  transition: all ease-in-out;
+  cursor: pointer;
+}
+
+
+@media (max-width: 460px) {
+  .todo-item {
+    min-width: 120px;
+  }
+}
