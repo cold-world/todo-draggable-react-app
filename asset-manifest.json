@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/todo-draggable-react-app/static/css/main.7b798a77.css",
-    "main.js": "/todo-draggable-react-app/static/js/main.180eb1d6.js",
+    "main.css": "/todo-draggable-react-app/static/css/main.340f72bd.css",
+    "main.js": "/todo-draggable-react-app/static/js/main.ea1e1a40.js",
     "index.html": "/todo-draggable-react-app/index.html",
-    "main.7b798a77.css.map": "/todo-draggable-react-app/static/css/main.7b798a77.css.map",
-    "main.180eb1d6.js.map": "/todo-draggable-react-app/static/js/main.180eb1d6.js.map"
+    "main.340f72bd.css.map": "/todo-draggable-react-app/static/css/main.340f72bd.css.map",
+    "main.ea1e1a40.js.map": "/todo-draggable-react-app/static/js/main.ea1e1a40.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b798a77.css",
-    "static/js/main.180eb1d6.js"
+    "static/css/main.340f72bd.css",
+    "static/js/main.ea1e1a40.js"
   ]
 }
